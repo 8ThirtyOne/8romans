@@ -1,0 +1,15 @@
+# Окремі проєкти
+/cdilabs/
+/cdilabs-new/
+/elegen/
+/labcyte/
+/purigen/
+/cdn/
+
+# public_html: логи сервера (cPanel створює error_log у кожній папці)
+error_log
+*.log
+
+# Системні файли
+.DS_Store
+Thumbs.db
